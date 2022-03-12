@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "355888889670",
+    "project_id": "dinosaurs-request",
+    "storage_bucket": "dinosaurs-request.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355888889670:android:50537e86da979a145a6f47",
+        "android_client_info": {
+          "package_name": "com.dinosaurs.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355888889670-t30kcnjaqqem0hvv40d4pmjrrhf7vgee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dinosaurs.notification",
+            "certificate_hash": "f1d03106491347dd52a240eb792593a09a1932db"
+          }
+        },
+        {
+          "client_id": "355888889670-7attimovv2s1dful75pu4g73567e5la8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGi49RneZ-Bk_--ItFGOQpB1rRN0oJxQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355888889670-7attimovv2s1dful75pu4g73567e5la8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
