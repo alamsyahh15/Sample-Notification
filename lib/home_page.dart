@@ -24,7 +24,10 @@ class _HomePageState extends State<HomePage> {
   int balance = 10000;
   initFirebase() async {
     // Get token firebase nya lalu update data ke databse
-    String? token = await FirebaseMessaging.instance.getToken();
+    String? token = await fcm.getToken();
+    fcm.subscribeToTopic("groupUdacoding"); // if using subscribe
+    fcm.subscribeToTopic("groupIT"); // if using subscribe
+
     if (token != null) {
       // update ke database server dengan hit api dari backend
       log("Token Firebase => $token");
